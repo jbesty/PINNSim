@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pinnsim"
+version = "0.0.1"
+authors = [
+    {name = "Jochen Stiasny", email = "j.b.stiasny@tudelft.nl"},
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = "src"
