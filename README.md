@@ -35,14 +35,17 @@ General settings are stored in the ``__init__.py`` file in ``src.pinnsim``. In p
 
 If you find this work helpful, please cite this work
 ```
-@misc{
-    stiasny2023pinnsim,
-    title={PINNSim: A Simulator for Power System Dynamics based on Physics-Informed Neural Networks}, 
-    author={Jochen Stiasny and Baosen Zhang and Spyros Chatzivasileiadis},
-    year={2023},
-    eprint={2303.10256},
-    archivePrefix={arXiv},
+@article{stiasny_pinnsim_2024,
+	title = {{PINNSim}: {A} simulator for power system dynamics based on {Physics}-{Informed} {Neural} {Networks}},
+    author = {Stiasny, Jochen and Zhang, Baosen and Chatzivasileiadis, Spyros},
+    journal = {Electric Power Systems Research},
+	volume = {235},
+    pages = {110796},
+	doi = {10.1016/j.epsr.2024.110796},
+	month = oct,
+	year = {2024},
 }
+
 ``` 
 
 ## License
